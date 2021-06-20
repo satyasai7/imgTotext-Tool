@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request, File, UploadFile, BackgroundTasks
 from fastapi.templating import Jinja2Templates
 import shutil
-import ocr
+import pytesseract as ocr
 import os
 import uuid
 import json
